@@ -1,0 +1,403 @@
+.box {
+
+	height: 80px;
+	width: 100%;
+	background-color: black;
+
+}
+
+.box {
+	display: flex;
+	justify-content: space-around;
+}
+
+.heading {
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 5%;
+}
+
+.heading h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: grey;
+	font-size: 40px;
+	background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ocean-quotes-index-1624414741.jpg);
+	background-size: 200px 400px;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-repeat: repeat-x;
+	animation-name: loader;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+	0% {
+		background-position: left 40% top 40%;
+	}
+
+	33% {
+		background-position: left 60% top 60%;
+	}
+
+	66% {
+		background-position: left 80% top 80%;
+	}
+
+	100% {
+		background-position: left 100% top 100%;
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	.shine {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width:500px) {
+	.starlink {
+		background-size: cover;
+	}
+}
+
+
+@media only screen and (max-width:700px) {
+	.textt #fade {
+		font-size: 20px;
+	}
+
+	.textt #dark {
+		font-size: 30px;
+	}
+
+}
+
+@media only screen and (max-width:700px) {
+	.text #light {
+		font-size: 20px;
+	}
+
+	.text #bold {
+		font-size: 30px;
+	}
+}
+
+nav {
+
+	position: fixed;
+	z-index: 4;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+}
+
+
+.shine {
+	z-index: 10;
+	background-color: black;
+	border-radius: 30px;
+	height: 30px;
+	width: 111%;
+	margin-top: -22px;
+}
+
+nav ul {
+	overflow: hidden;
+}
+
+.center {
+	padding-top: 5px;
+}
+
+.shop {
+	margin-left: 150px;
+	padding-top: 5px;
+}
+
+a {
+	color: azure;
+	text-decoration: none;
+}
+
+a:hover {
+	/*color: blueviolet;*/
+	text-decoration: underline white;
+}
+
+.transporter {
+	background: url("https://storage.googleapis.com/corpeng-pulse-assets/uploads/2023/01/Trans6_IMG_5872_desktop-scaled.jpg");
+	background-size: cover;
+	height: 900px;
+	position: static;
+}
+
+.starlink {
+	background: url("https://www.spaceflightinsider.com/wp-content/uploads/2019/05/Starlink_1078.jpg");
+	background-size: cover;
+	height: 900px;
+	position: static;
+}
+
+.background {
+	background: url("https://assets.wam.ae/uploads/2022/10/2956320028914710826.jpg");
+	background-size: cover;
+	height: 900px;
+	position: static;
+}
+
+.text {
+	color: white;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 80px;
+	line-height: 8px;
+	z-index: 2;
+}
+
+.crew {
+	background: url("https://pbs.twimg.com/media/FeVQPEhUoAANc-b?format=jpg&name=4096x4096");
+	background-size: cover;
+	height: 900px;
+	position: static;
+}
+
+.starship {
+	background: url("https://pbs.twimg.com/media/Fe2ErJpUcAAkeX1?format=jpg&name=4096x4096");
+	background-size: cover;
+	height: 900px;
+	position: static;
+}
+
+.landing {
+	background: url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/for_press_release.jpg?itok=dYqEJLAy");
+	background-size: cover;
+	height: 900px;
+	position: static;
+}
+
+.textt {
+	color: white;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 80px;
+	line-height: 8px;
+	z-index: 2;
+}
+
+.watch:hover {
+	background-color: grey;
+}
+
+.watch {
+	font-size: 18px;
+	border: 2px solid white;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	padding-top: 25px;
+	font-weight: bold;
+	transition-property: background-color;
+	transition-duration: 2s;
+}
+
+.rewatch {
+	font-size: 18px;
+	border: 2px solid white;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	padding-top: 25px;
+	font-weight: bold;
+	transition-property: background-color;
+	transition-duration: 2s;
+}
+
+.rewatch:hover {
+	background-color: grey;
+	text-decoration: none;
+}
+
+#fade {
+	font-size: 20px;
+	font-weight: light;
+}
+
+#dark {
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+#light {
+	font-size: 20px;
+	font-weight: light;
+}
+
+#bold {
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h3 {
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	border: 2px solid green;
+	margin: 20px;
+	padding: 20px;
+	height: 350px;
+	width: 300px;
+	text-align: center;
+	align-items: center;
+	box-shadow: 20px 20px silver;
+	border-radius: 20px;
+	background-color: cyan;
+	font-family: 'island_moments', sans-serif;
+	transition: 1s;
+}
+
+h3:hover {
+	color: red;
+	transform: scale(1.2);
+	/*transform: rotateY(180deg);*/
+}
+
+.star {
+	align-items: center;
+}
+
+
+.jas {
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	display: flex;
+	height: 80px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.items {
+	color: white;
+	flex-direction: row;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.items:hover {
+	color: grey;
+	border: 1.5px dotted whitesmoke;
+}
+
+/*sidebar*/
+
+#sidebar {
+	position: fixed;
+	top: 0px;
+	right: -200px;
+	width: 200px;
+	height: 100%;
+	background: black;
+	z-index: 10;
+}
+
+#sidebar.hover {
+	right: 0px;
+	background-color: black;
+
+}
+
+#sidebar .links a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
+#sidebar-toggle {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 95px;
+	left: -50px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#sidebar-toggle .hover {
+	left: 0px;
+	background-color: black;
+}
+
+#sidebar #sidebar-toggle span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	height: 3px;
+	background: white;
+}
+
+#sidebar #sidebar-toggle span:nth-child(1) {
+	top: 30%;
+}
+
+#sidebar #sidebar-toggle span:nth-child(3) {
+	top: 70%;
+}
+
+.scroll{
+	position: absolute;
+    margin-top: 750px;
+	margin-left: 700px;
+    height: 20px;
+    width: 20px;
+    border-left: 5px solid grey;
+    border-bottom: 5px solid grey; 
+    transform: rotate(-45deg);
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes scroll{
+    0%{
+        translate: 0%;
+        opacity: 0%;
+    }
+    25%{
+        translate: 0% 25%;
+        opacity: 25%;
+    }
+    50%{
+        translate: 0% 50%;
+        opacity: 50%;
+    }
+    75%{
+        translate: 0% 75%;
+        opacity: 100%;  
+    }
+    100%{
+        translate: 0% 100%;
+        opacity: 100%;
+    }
+}
