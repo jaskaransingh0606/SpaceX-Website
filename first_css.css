@@ -262,9 +262,11 @@ h3 {
 	width: 300px;
 	text-align: center;
 	align-items: center;
-	box-shadow: 20px 20px silver;
+	box-shadow: 20px 20px #BDD4E7;
 	border-radius: 20px;
-	background-color: rgb(28, 45, 45);
+	/* background-color: rgb(28, 45, 45); */
+	background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	font-family: 'island_moments', sans-serif;
 	transition: 1s;
 }
