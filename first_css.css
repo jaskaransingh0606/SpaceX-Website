@@ -264,7 +264,7 @@ h3 {
 	align-items: center;
 	box-shadow: 20px 20px silver;
 	border-radius: 20px;
-	background-color: cyan;
+	background-color: rgb(28, 45, 45);
 	font-family: 'island_moments', sans-serif;
 	transition: 1s;
 }
